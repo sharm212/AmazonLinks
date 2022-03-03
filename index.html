@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <style>
+  a {
+  text-decoration: none !important;
+}
+
+
+      section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+html, body{
+    background-color: black;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ct-row {
+  margin-left: -5px;
+  margin-right: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ct-sectional-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 5px 5px 5px;
+}
+
+.ct-sectional-box .title {
+  font-family: Courier;
+  position: relative;
+  font-size: 24px;
+  margin: 5px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 0.9;
+  min-height: 87px;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+
+
+.ct-sectional-box .title a {
+  display: block;
+  padding: 10px 100px 10px 34px;
+  max-width: 100%;
+  color: inherit;
+  position: relative;
+  z-index: 1;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.ct-sectional-box .title a:hover {
+  text-decoration: none;
+}
+
+.ct-sectional-box .inner {
+  background: #faf9f9;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.ct-sectional-box ul {
+  font-size: 18px;
+  padding: 30px 20px 30px 14px;
+}
+
+ul > li,
+ol > li {
+  padding: 6px 0;
+}
+
+.ct-sectional-box ul a {
+  font-family: Monospace;
+  color: #00689b;
+}
+
+.ct-sectional-box ul a:hover {
+  color: #00719b;
+}
+
+/* box blue */
+
+.ct-sectional-box--blue .title {
+  background: #003767;
+  color: #fff;
+}
+
+.ct-sectional-box--blue .title:hover {
+  background: #0094cb;
+}
+
+/* box red */
+
+.ct-sectional-box--red .title {
+  background: #6f42c1;
+  color: #fff;
+}
+
+.ct-sectional-box--red .title:hover {
+  background: #6610f2;
+}
+
+/* box green */
+
+.ct-sectional-box--green .title {
+  background: #2e3c42;
+  color: #fff;
+ 
+}
+.ct-sectional-box--green .title:hover {
+  background: #00c7b6;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+  .ct-sectional-box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.3333%;
+    flex: 1 1 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 991px) {
+  .ct-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+  </style>
+  <body>
+	<section>
+        <div class="container">
+          <div class="ct-row">
+            <div class="ct-sectional-box ct-sectional-box--blue">
+              <h2 class="title d-flex justify-content-center">iPhone Protection Combo</h2>
+              <div class="inner">
+               <ul>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/ESR-Compatible-Tempered-Glass-Shock-Proof-Scratch-Resistant/dp/B099K9P22N/ref=sr_1_4?crid=106ACVJJPKF0J&amp;keywords=iphone+13+pro+esr&amp;qid=1646277693&amp;sprefix=iphone+13+pro+esr%252Caps%252C323&amp;sr=8-4&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=7504bbdd281c1b3017ceec9c9103b370&camp=15121&creative=330641">ESR Tempered Glass & Case Combo for iPhone 13 Pro</a></div>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/ESR-Protectors-Shock-Proof-Scratch-Resistant-Tempered-Glass/dp/B099K65Z8N/ref=sr_1_1_sspa?crid=8BCEIKQG0V3K&amp;keywords=iphone+13+pro+esr&amp;qid=1646276861&amp;sprefix=iphone+13+pro+esr%252Caps%252C77&amp;sr=8-1-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTSE9ORVowTEszTUgmZW5jcnlwdGVkSWQ9QTA2Mjk4NzIxMVg1RldWMERNUVhJJmVuY3J5cHRlZEFkSWQ9QTAwMDExNjYxMkRaRlNCMUI2T0NBJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=f44ceb7b2e3e0e085524ffeb9522edb3&camp=15121&creative=330641
+                    ">ESR Tempered Glass & Case Combo for iPhone 13 Pro Max</a></div>
+                </ul>
+              </div>
+            </div>
+            <div class="ct-sectional-box ct-sectional-box--red">
+              <h2 class="title d-flex justify-content-center">Macbook Protection</h2>
+              <div class="inner">
+                <ul>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/Spigen-Tempered-Protector-Designed-MacBook/dp/B07V9P9CF2/ref=sr_1_1?crid=31GY3J0RYOORG&amp;keywords=macbook%252Bair%252Bspigen%252Btempered&amp;qid=1646280857&amp;sprefix=macbook%252Bair%252Bspigen%252Btempered%252Caps%252C70&amp;sr=8-1&amp;th=1&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=d5a97b343ff4e1199581083f83c6ee16&camp=15121&creative=330641">Spigen Tempered Glass for MacBook Air 13-inch</a></div>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/Tempered-Protector-Designed-Released-Hardness/dp/B09NP4TQW1/ref=sr_1_14?crid=L3BYWZW8XE7S&amp;keywords=macbook%252Bpro%252Bspigen%252Btempered&amp;qid=1646281068&amp;sprefix=macbook%252Bpro%252Bspigen%252Btempered%252Caps%252C58&amp;sr=8-14&amp;th=1&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=1a8cd2348b6ae829fa4530736f930aa5&camp=15121&creative=330641">Spigen Tempered Glass for MacBook Pro 14-inch 2021</a></div>
+                </ul>
+              </div>
+            </div>
+            <div class="ct-sectional-box ct-sectional-box--green">
+              <h2 class="title d-flex justify-content-center">iPad Protection</h2>
+              <div class="inner">
+                <ul>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/ESR-iPad-mini-Tempered-Glass-Easy-Installation/dp/B099RX2Y2Y/ref=sr_1_2?crid=QJ54IK0R1D0T&amp;keywords=ipad+esr+tempered&amp;qid=1646282873&amp;sprefix=ipad+esr+tempered%252Caps%252C59&amp;sr=8-2&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=881ac0344ab76a0c40627833b75ba012&camp=15121&creative=330641">ESR Tempered Glass for iPad Mini 6 (2021)</a></div>
+                    <div class="shadow p-3 mb-5 bg-body rounded"><a href="https://www.amazon.ca/ESR-Rebound-Generation-Flexible-Rubberized/dp/B07WR9ZMKJ/ref=sr_1_5?crid=7WKKU98E8EFM&amp;keywords=ipad%252Besr%252Bcase&amp;qid=1646283109&amp;sprefix=ipad%252Besr%252Bcase%252Caps%252C69&amp;sr=8-5&amp;th=1&_encoding=UTF8&tag=priceslash004-20&linkCode=ur2&linkId=a15fcfc41c361e3835de833081f059e0&camp=15121&creative=330641">ESR Slim Case for iPad 9th Generation</a></div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
